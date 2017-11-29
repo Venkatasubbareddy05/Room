@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html>
+<head>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-ui-router.js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-app="app">
+<a ui-sref="kitchen" ui-sref-active="active">Kitchen</a>
+<a ui-sref="hall" ui-sref-active="active">Hall</a>
+<a ui-sref="bathroom" ui-sref-active="active">Bath room</a>
+<ui-view></ui-view>
+</body>
 
-    <a href="#kitchen"><b>Page_One</b></a>&emsp;&emsp;&emsp;&emsp;&emsp;
-    <a href="#hall"><b>Page_Two</b></a>
 
-    <br><br>
-    <div ng-view></div>
-
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-route/angular-route.min.js"></script>
-    <script src="app.js"></script>
-    <script src="config.js"></script>
-    <script src="controllers/kitchen.js"></script>
-    <script src="controllers/hall.js"></script>
+    <!--<script src="config.js"></script>-->
+<!--<script src="controllers/kitchen.js"></script>
+    <script src="controllers/hall.js"></script>-->
 </html>
