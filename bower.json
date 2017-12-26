@@ -1,0 +1,26 @@
+{
+  "name": "room",
+  "authors": [
+    "kvsr"
+  ],
+  "description": "contents in the rooo",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "home",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.7",
+    "lodash": "^4.17.4",
+    "angular-bootstrap": "^2.5.0",
+    "bower": "*",
+    "install": "^1.0.4",
+    "angular-ui-router": "^1.0.11"
+  }
+}
